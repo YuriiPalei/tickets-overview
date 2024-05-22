@@ -1,0 +1,27 @@
+@import "src/common/styles/theme";
+
+.checkbox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+
+  &:hover {
+    background-color: #F1FCFF;
+  }
+
+  label {
+    font-size: 13px;
+    line-height: 20px;
+    color: $foreground-color-primary;
+  }
+
+  input {
+    margin: 0;
+    border: 1px solid #9ABBCE;
+    border-radius: 2px;
+    width: 20px;
+    height: 20px;
+  }
+}

@@ -1,0 +1,27 @@
+@import "src/common/styles/theme";
+
+.details {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.item {
+  flex: 1;
+}
+
+.name {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: $foreground-color-light;
+}
+
+.value {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  color: $foreground-color-primary;
+}

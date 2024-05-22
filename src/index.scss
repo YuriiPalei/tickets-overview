@@ -1,0 +1,42 @@
+@import './common/styles/theme';
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: $bg-color-primary;
+  color: $foreground-color-primary;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+p {
+  color: $foreground-color-primary;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* Prevents ios-browser style overrides */
+textarea,
+input.text,
+input[type='number'],
+input[type='text'],
+input[type='button'],
+input[type='submit'],
+.input-checkbox {
+  -webkit-appearance: none;
+  border-radius: 0;
+  padding: 0;
+  margin: 0;
+}
