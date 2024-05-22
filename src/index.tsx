@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import AppWrapper from "scenes/AppWrapper";
-import { BrowserRouter } from "react-router-dom";
+import {HashRouter} from "react-router-dom";
 import "./index.scss";
 import setupStore from "store/configureStore";
-import { Provider } from "react-redux";
+import {Provider} from "react-redux";
 
 const store = setupStore();
 
@@ -13,8 +13,8 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <Provider store={store}>
-    <BrowserRouter>
+    <HashRouter>
       <AppWrapper />
-    </BrowserRouter>
+    </HashRouter>
   </Provider>,
 );
