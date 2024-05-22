@@ -1,6 +1,6 @@
 {
   "name": "test-collaborator",
-  "homepage": "https://yuriipalei.github.io/tickets-overview/",
+  "homepage": "https://yuriipalei.github.io/tickets-overview",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
